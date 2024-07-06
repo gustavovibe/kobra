@@ -17,5 +17,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KOBRA_MARKETING_1638124228116 }}
-          projectId: kobra-marketing-1638124228116
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_WEB_KOBRA_MARKETING }}
+          projectId: web-kobra-marketing
